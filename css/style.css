@@ -10,10 +10,53 @@ RESET
 /*
 COMMON
 */
+.flex {
+  display: flex;
+}
 
+.block {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 /*
 MAIN
 */
+
+/* Menu a sinistra del layout */
+.menu-left {
+  width: 20%;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.logo {
+  padding: 1.25rem 1.25rem;
+}
+
+.home img {
+  width: 2.5rem;
+  margin-left: 1.25rem;
+}
+
+.home span {
+  color: white;
+  padding-bottom: 0.625rem;
+  padding: 0rem 0.625rem;
+}
+
+/* Main a destra del layout */
+.main-right {
+  width: 80%;
+  height: 100vh;
+  background-color: green;
+}
 
 /*
 FOOTER
