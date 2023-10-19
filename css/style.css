@@ -12,6 +12,7 @@ COMMON
 */
 body {
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .flex {
@@ -49,13 +50,14 @@ MAIN
 }
 
 .home img {
-  width: 2.5rem;
+  width: 1.875rem;
   margin-left: 1.25rem;
 }
 
 .home span {
   color: white;
   padding: 0rem 0.625rem;
+  font-size: 0.875rem;
 }
 
 .playlist {
@@ -67,7 +69,7 @@ MAIN
 }
 
 .playlist .list {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .playlist h4 {
@@ -105,6 +107,12 @@ MAIN
   height: 1.25rem;
   margin: 1.25rem 1.25rem;
 }
+
+.profilo img {
+  background-color: #808080;
+  border-radius: 1.25rem;
+}
+
 /* Main a destra del layout */
 .main-right {
   flex-grow: 1;
@@ -117,5 +125,4 @@ FOOTER
 footer {
   height: 5.625rem;
   background-color: gray;
-  display: flex;
 }

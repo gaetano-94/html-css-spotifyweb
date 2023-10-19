@@ -15,63 +15,78 @@
     />
     <!-- /Font Awesome -->
 
+    <!-- FONT MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- /FONT MONTSERRAT -->
+
     <!-- my CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- /my CSS -->
   </head>
   <body>
     <!-- MAIN -->
-    <main>
-      <div class="big-container flex">
-        <!-- LATO SINISTRO LAYOUT -->
-        <div class="menu-left flex">
-          <div class="logo">
-            <img src="img/logo.svg" alt="logo Spotify" />
+    <main class="big-container flex">
+      <!-- LATO SINISTRO LAYOUT -->
+      <div class="menu-left flex">
+        <!-- LOGO -->
+        <div class="logo">
+          <img src="img/logo.svg" alt="logo Spotify" />
+        </div>
+        <!-- /LOGO -->
+        <!-- MENU -->
+        <div class="home">
+          <div>
+            <img src="img/home.svg" alt="logo Spotify" />
+            <span>Home</span>
           </div>
-          <div class="home">
-            <div>
-              <img src="img/home.svg" alt="logo Spotify" />
-              <span>Home</span>
-            </div>
-            <div>
-              <img src="img/search.svg" alt="ricerca" />
-              <span>Cerca</span>
-            </div>
-            <div>
-              <img src="img/libreria.svg" alt="libreria" />
-              <span>La tua libreria</span>
-            </div>
+          <div>
+            <img src="img/search.svg" alt="ricerca" />
+            <span>Cerca</span>
           </div>
-          <div class="playlist flex">
-            <h4>PLAYLIST</h4>
-            <div class="list">
-              <ul>
-                <li><i class="fa-solid fa-plus"></i> Crea Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-                <li>Nome Playlist</li>
-              </ul>
-            </div>
-          </div>
-          <div class="user">
-            <div class="img-user top">
-              <img src="img/download.svg" alt="user download" />
-            </div>
-            <div class="hr"></div>
-            <div class="img-user">
-              <img src="img/profile.svg" alt="" />
-            </div>
+          <div>
+            <img src="img/libreria.svg" alt="libreria" />
+            <span>La tua libreria</span>
           </div>
         </div>
-        <!-- /LATO SINISTRO LAYOUT -->
-        <!-- LATO DESTRO LAYOUT -->
-        <div class="main-right"></div>
-        <!-- /LATO DESTRO LAYOUT -->
+        <!-- /MENU -->
+        <div class="playlist flex">
+          <!-- PLAYLIST -->
+          <h4>PLAYLIST</h4>
+          <div class="list">
+            <!-- LISTA PLAYLIST -->
+            <ul>
+              <li><i class="fa-solid fa-plus"></i> Crea Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+            </ul>
+            <!-- /LISTA PLAYLIST -->
+          </div>
+          <!-- /PLAYLIST -->
+        </div>
+        <div class="user">
+          <div class="img-user">
+            <img src="img/download.svg" alt="user download" />
+          </div>
+          <div class="hr"></div>
+          <div class="img-user profilo">
+            <img src="img/profile.svg" alt="" />
+          </div>
+        </div>
       </div>
+      <!-- /LATO SINISTRO LAYOUT -->
+      <!-- LATO DESTRO LAYOUT -->
+      <div class="main-right"></div>
+      <!-- /LATO DESTRO LAYOUT -->
     </main>
     <!-- /MAIN -->
 
