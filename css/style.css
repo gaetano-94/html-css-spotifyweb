@@ -1,6 +1,7 @@
 /*
 RESET
 */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ RESET
 /*
 COMMON
 */
+
 body {
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
@@ -30,6 +32,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 /*
 MAIN
 */
@@ -48,6 +51,7 @@ MAIN
   padding: 1.25rem 1.25rem;
 }
 
+/* HOME TOP */
 .home {
   flex-direction: column;
 }
@@ -69,7 +73,9 @@ MAIN
   font-size: 0.875rem;
   margin-bottom: 0.625rem;
 }
+/* /HOME TOP */
 
+/* PLAYLIST PIU LIST */
 .playlist {
   color: white;
   padding: 1.25rem 1.25rem;
@@ -102,7 +108,9 @@ MAIN
 .playlist li {
   padding-bottom: 0.9375rem;
 }
+/* /PLAYLIST PIU LIST */
 
+/* USER */
 .user {
   background-color: #000000;
   margin-top: auto;
@@ -141,11 +149,28 @@ MAIN
   background-color: #808080;
   border-radius: 1.25rem;
 }
+/* /USER */
 
 /* Main a destra del layout */
 .main-right {
   flex-grow: 1;
   background-color: #141921;
+}
+
+/* MAIN TOP */
+.main-top {
+  background-color: #080b12;
+  justify-content: end;
+}
+
+.main-top button {
+  border-style: none;
+  border-radius: 1.875rem;
+  padding: 0.9375rem 3.125rem;
+  color: white;
+  background-color: #080b12;
+  margin: 1.25rem 0.3125rem;
+  border: 1px solid white;
 }
 
 /*
