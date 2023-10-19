@@ -10,6 +10,10 @@ RESET
 /*
 COMMON
 */
+body {
+  height: 100vh;
+}
+
 .flex {
   display: flex;
 }
@@ -30,10 +34,14 @@ MAIN
 */
 
 /* Menu a sinistra del layout */
+.big-container {
+  height: calc(100% - 5.625rem);
+}
+
 .menu-left {
-  width: 20%;
-  height: 100vh;
+  flex-shrink: 0;
   background-color: #000000;
+  flex-direction: column;
 }
 
 .logo {
@@ -53,6 +61,13 @@ MAIN
 .playlist {
   color: white;
   padding: 1.25rem 1.25rem;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.playlist .list {
+  overflow: auto;
 }
 
 .playlist h4 {
@@ -75,7 +90,7 @@ MAIN
 
 .user {
   background-color: #000000;
-  height: 100vh;
+  margin-top: auto;
 }
 
 .user .hr {
@@ -92,11 +107,15 @@ MAIN
 }
 /* Main a destra del layout */
 .main-right {
-  width: 80%;
-  height: 100vh;
-  background-color: green;
+  flex-grow: 1;
+  background-color: #141921;
 }
 
 /*
 FOOTER
 */
+footer {
+  height: 5.625rem;
+  background-color: gray;
+  display: flex;
+}
