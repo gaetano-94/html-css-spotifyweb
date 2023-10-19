@@ -39,16 +39,16 @@
         </div>
         <!-- /LOGO -->
         <!-- MENU -->
-        <div class="home">
-          <div>
+        <div class="home flex">
+          <div class="text-home">
             <img src="img/home.svg" alt="logo Spotify" />
             <span>Home</span>
           </div>
-          <div>
+          <div class="text-home">
             <img src="img/search.svg" alt="ricerca" />
             <span>Cerca</span>
           </div>
-          <div>
+          <div class="text-home">
             <img src="img/libreria.svg" alt="libreria" />
             <span>La tua libreria</span>
           </div>
@@ -56,11 +56,13 @@
         <!-- /MENU -->
         <div class="playlist flex">
           <!-- PLAYLIST -->
-          <h4>PLAYLIST</h4>
+          <div class="top-list">
+            <h4>PLAYLIST</h4>
+            <i class="fa-solid fa-plus"></i> <span>Crea Playlist</span>
+          </div>
           <div class="list">
             <!-- LISTA PLAYLIST -->
             <ul>
-              <li><i class="fa-solid fa-plus"></i> Crea Playlist</li>
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
@@ -74,8 +76,9 @@
           <!-- /PLAYLIST -->
         </div>
         <div class="user">
-          <div class="img-user">
+          <div class="img-user app">
             <img src="img/download.svg" alt="user download" />
+            <span>installa app</span>
           </div>
           <div class="hr"></div>
           <div class="img-user profilo">

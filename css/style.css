@@ -49,15 +49,26 @@ MAIN
   padding: 1.25rem 1.25rem;
 }
 
-.home img {
-  width: 1.875rem;
-  margin-left: 1.25rem;
+.home {
+  flex-direction: column;
 }
 
-.home span {
+.text-home {
+  display: flex;
+  align-items: center;
+}
+
+.text-home img {
+  width: 1.875rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.text-home span {
   color: white;
   padding: 0rem 0.625rem;
   font-size: 0.875rem;
+  margin-bottom: 0.625rem;
 }
 
 .playlist {
@@ -76,7 +87,11 @@ MAIN
   padding-bottom: 0.9375rem;
 }
 
-.playlist ul i {
+.top-list {
+  margin-bottom: 1.25rem;
+}
+
+.top-list i {
   background-color: #a3a3a3;
   width: 1.875rem;
   height: 1.875rem;
@@ -102,10 +117,22 @@ MAIN
   margin: 0 auto;
 }
 
+.user span {
+  color: white;
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  margin-left: -0.625rem;
+}
+
 .user .img-user img {
   width: 1.25rem;
   height: 1.25rem;
   margin: 1.25rem 1.25rem;
+}
+
+.user .app {
+  margin-bottom: -10px;
+  display: flex;
 }
 
 .profilo img {
