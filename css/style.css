@@ -68,7 +68,7 @@ MAIN
 }
 
 .text-home span {
-  color: white;
+  color: #717171;
   padding: 0rem 0.625rem;
   font-size: 0.875rem;
   margin-bottom: 0.625rem;
@@ -77,7 +77,7 @@ MAIN
 
 /* PLAYLIST PIU LIST */
 .playlist {
-  color: white;
+  color: #717171;
   padding: 1.25rem 1.25rem;
   flex-direction: column;
   overflow: hidden;
@@ -89,6 +89,7 @@ MAIN
 
 .playlist h4 {
   padding-bottom: 0.9375rem;
+  color: white;
 }
 
 .top-list {
@@ -117,8 +118,8 @@ MAIN
 }
 
 .user .hr {
-  background-color: #a3a3a3;
-  height: 2px;
+  background-color: #717171;
+  height: 1px;
   width: 85%;
   margin: 0 auto;
 }
@@ -134,6 +135,10 @@ MAIN
   width: 1.25rem;
   height: 1.25rem;
   margin: 1.25rem 1.25rem;
+}
+
+.user .app span {
+  color: #717171;
 }
 
 .user .app {
@@ -172,7 +177,16 @@ MAIN
   margin: 1.25rem 0.3125rem;
   border: 1px solid white;
 }
+/* /MAIN TOP */
 
+/* MENU TOP */
+.menu-top .flex {
+  width: 60%;
+  justify-content: space-around;
+  font-size: 0.875rem;
+  color: #717171;
+  margin: 1.25rem auto;
+}
 /*
 FOOTER
 */
