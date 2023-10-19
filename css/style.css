@@ -40,7 +40,6 @@ MAIN
 }
 
 .menu-left {
-  flex-shrink: 0;
   background-color: #000000;
   flex-direction: column;
 }
@@ -75,7 +74,6 @@ MAIN
   color: white;
   padding: 1.25rem 1.25rem;
   flex-direction: column;
-  flex-grow: 1;
   overflow: hidden;
 }
 
@@ -132,6 +130,10 @@ MAIN
 
 .user .app {
   margin-bottom: -10px;
+  display: flex;
+}
+
+.user .profilo {
   display: flex;
 }
 
