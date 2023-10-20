@@ -33,6 +33,9 @@ a {
   text-decoration: none;
 }
 
+.w-100 {
+  width: 100%;
+}
 /*
 MAIN
 */
@@ -205,4 +208,12 @@ FOOTER
 footer {
   height: 5.625rem;
   background-color: gray;
+  position: fixed;
+  width: 100%;
 }
+
+.menu-footer {
+  justify-content: space-between;
+}
+
+/* MEDIA QUERY */
