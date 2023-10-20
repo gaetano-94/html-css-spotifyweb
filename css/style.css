@@ -45,6 +45,8 @@ MAIN
 .menu-left {
   background-color: #000000;
   flex-direction: column;
+  width: 200px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -160,12 +162,18 @@ MAIN
 .main-right {
   flex-grow: 1;
   background-color: #141921;
+  overflow-y: auto;
 }
 
 /* MAIN TOP */
 .main-top {
-  background-color: #080b12;
-  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: calc(100% - 200px);
+  text-align: right;
 }
 
 .main-top button {
@@ -173,13 +181,17 @@ MAIN
   border-radius: 1.875rem;
   padding: 0.9375rem 3.125rem;
   color: white;
-  background-color: #080b12;
-  margin: 1.25rem 0.3125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 1.25rem;
   border: 1px solid white;
 }
 /* /MAIN TOP */
 
 /* MENU TOP */
+.menu-top {
+  margin-top: 7.125rem;
+}
+
 .menu-top .flex {
   width: 60%;
   justify-content: space-around;
